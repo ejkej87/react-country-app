@@ -3,7 +3,7 @@ export const GET_COUNTRY = 'GET_COUNTRY';
 export const DELETE_COUNTRY = 'DELETE_COUNTRY';
 export const SEARCH_COUNTRIES = 'SEARCH_COUNTRIES';
 export const SET_CONTINENT = 'SET_CONTINENT';
-// import {dispatch} from 'redux';
+
 
 export function getCountries() {
     return {
@@ -38,5 +38,3 @@ export function setContinent(name) {
         name
     }
 }
-
-// const boundGetCountries = () => dispatch(getCountries);
